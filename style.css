@@ -1,107 +1,125 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 
 .header_wrapper {
-    border-bottom: 1px solid rgb(184, 181, 181);
+  border-bottom: 1px solid rgb(184, 181, 181);
 }
 
 .navbar-brand {
-    font-size: 33px;
-    font-weight: 700;
+  font-size: 33px;
+  font-weight: 700;
 }
 
 .nav-btn {
-    background-color: #ff7a42 !important;
-    color: white;
-    height: 53px;
-    width: 146px !important;
+  background-color: #ff7a42 !important;
+  color: white;
+  height: 53px;
+  width: 146px !important;
 }
 
 .nav-item {
-    line-height: 33px;
-    font-weight: 600;
+  line-height: 33px;
+  font-weight: 600;
 }
 
-.banner_wrapper{
-    border-bottom: 1px solid rgb(184, 181, 181);
+.banner_wrapper {
+  border-bottom: 1px solid rgb(184, 181, 181);
 }
 
-.banner_wrapper h1{
-    margin-top: 82px;
-    font-weight: 700;
-    font-size: 52px;
+.banner_wrapper h1 {
+  margin-top: 82px;
+  font-weight: 700;
+  font-size: 52px;
 }
+
 .banner_wrapper .circle-play {
-    cursor: pointer;
-    height: 50px;
-    width: 50px;
-    border: 1px solid #4c409c;
-    border-radius: 50%;
-    margin-left: 23px;
+  cursor: pointer;
+  height: 50px;
+  width: 50px;
+  border: 1px solid #4c409c;
+  border-radius: 50%;
+  margin-left: 23px;
 }
 
-.banner_wrapper .banner-btn{
+.banner_wrapper .banner-btn {
   width: 166px;
-    background-color: #4c409c;
-    color: white;
-    box-shadow: 0px 10px 10px 0px #4c409c;
+  background-color: #4c409c;
+  color: white;
+  box-shadow: 0px 10px 10px 0px #4c409c;
 }
 
 .banner_wrapper .circle-play .fas {
-    position: relative;
-    top: 12px;
-    left: 19px;
-    color: #4c409c;
+  position: relative;
+  top: 12px;
+  left: 19px;
+  color: #4c409c;
 }
 
-.banner-left-content a{
-    padding-top: 9px;
-    padding-left: 23px;
-    color: #4c409c;
-    text-decoration: none;
+.banner-left-content a {
+  padding-top: 9px;
+  padding-left: 23px;
+  color: #4c409c;
+  text-decoration: none;
 }
 
-/* Style the input container */
-.input-container {
-  display: flex;
-  width: 100%;
-  margin-bottom: 15px;
+.main-form {
+  margin-top: 62px;
 }
 
-/* Style the form icons */
-.icon {
-  padding: 10px;
-  background: dodgerblue;
-  color: white;
-  min-width: 50px;
-  text-align: center;
+.input-social-icon {
+  float: left;
+  margin-left: 12px;
+  margin-top: -25px;
+  position: relative;
+  color: #ff7a42;
 }
 
-/* Style the input fields */
-.input-field {
-  width: 100%;
-  padding: 10px;
+::placeholder {
+  padding-left: 23px;
+}
+
+.main-form select {
+  padding-left: 36px;
+}
+
+
+.btn-secondary {
+  background-color: #ff7a42;
+  height: 38px;
+  width: 80px;
   outline: none;
+  border: 0;
 }
 
-.input-field:focus {
-  border: 2px solid dodgerblue;
+.input-btn{
+  position: relative;
+  top: -39px;
+  float: right;
+}
+.btn-search{
+  position: absolute;
+  top: 13px;
+  left: 6px;
 }
 
-/* Set a style for the submit button */
-.btn {
-  background-color: dodgerblue;
-  color: white;
-  padding: 15px 20px;
-  border: none;
-  cursor: pointer;
-  width: 100%;
-  opacity: 0.9;
+
+.cardIcon img{
+  height: 70px;
+  width: 70px;
 }
 
-.btn:hover {
-  opacity: 1;
+#last{
+  color: #4c409c;
+  border-radius: 8PX;
+}
+#last H4{
+  color: #ff7a42;
+}
+#last:hover{
+  background-color: #4c409c;
+  color: blanchedalmond;
+
 }
